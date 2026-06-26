@@ -73,7 +73,7 @@
   // Raw / code blocks
   // ------------------------------------------------------------
 
-  show raw: set text(size: 8pt/*, font:"JetBrains Mono"*/)
+  show raw: set text(size: 8pt, font:"JetBrains Mono")
 
   show raw.where(block: true): it => {
     set par(first-line-indent: 0pt)
